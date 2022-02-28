@@ -125,7 +125,7 @@
                     </dependency>
                 </dependencies>
                 <configuration>
-                    <noticeTemplate>etc/notice/NOTICE.template</noticeTemplate>
+                    <noticeTemplate>https://raw.github.com/ModelIEE/mvmf-parent/master/etc/notice/NOTICE.template</noticeTemplate>
                 </configuration>
             </plugin>
             <plugin>
@@ -133,7 +133,7 @@
                 <artifactId>license-maven-plugin</artifactId>
                 <version>${mvn.license.plugin.version}</version>
                 <configuration>
-                    <header>etc/license/header.txt</header>
+                    <header>https://raw.github.com/ModelIEE/mvmf-parent/master/etc/license/header.txt</header>
                     <strictCheck>true</strictCheck>
                     <excludes>
                         <exclude>.gitignore</exclude>
