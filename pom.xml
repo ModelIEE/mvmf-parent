@@ -41,7 +41,7 @@
         <tuwqse.model.util.version>0.1.0-SNAPSHOT</tuwqse.model.util.version>
 
         <!-- dependency external -->
-        <log4j.api.version>2.14.0</log4j.api.version>
+        <log4j.api.version>2.17.1</log4j.api.version>
         <junit.jupiter.version>5.7.0</junit.jupiter.version>
     </properties>
 
